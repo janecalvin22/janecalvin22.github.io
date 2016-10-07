@@ -165,7 +165,7 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 .box-content .heading{margin-bottom: 50px; text-align: center;}
 .box-content .heading span{color: #FF6D6D;}
 .box-content.box-style-1{background-attachment:fixed; background-image: url(../images/bg-1.jpg); background-color: #222;color:#fff;}
-.box-content.box-style-2{background-attachment:fixed; background-image: url(../images/bg-2.jpg); opacity: 0.5;background-color: #222;color:#fff;}
+.box-content.box-style-2{background-attachment:fixed; background-image: url(../images/bg-2.jpg); opacity: 0.5;background-color: #222;color:#E2102C;}
 .box-content.box-style-3{background: #F9F7F1;}
 
 /* ---------------------------------------------------------------------------- */
@@ -324,7 +324,7 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 /* ---------------------------------------------------------------------------- */
 .box-content.box-4 {}
 .box-content.box-4 .box-item{}
-.box-content.box-4 blockquote {position: relative;padding: 60px 120px 40px;text-align: center;font-size: 43px; border:none;line-height: 1.2;}
+.box-content.box-4 blockquote {position: relative;padding: 60px 120px 40px;text-align: center;font-size: 43px; font-weight: bold; border:none;line-height: 1.2;}
 .box-content.box-4 blockquote:before, .box-content.box-4 blockquote:after {position: absolute;width: 60px;height: 60px;font-size: 130px;line-height: 1; }
 .box-content.box-4 blockquote:before {top: 0;left: 0;content: "\201C"; }
 .box-content.box-4 blockquote:after {top: 0;right: 0;content: "\201D"; }
