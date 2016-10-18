@@ -21,6 +21,11 @@ html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
+.transparent
+{
+    opacity: 0.5;
+}
+
 h1 {font-size: 38px;}
 h2 {font-size: 36px;}
 h3 {font-size: 32px;}
