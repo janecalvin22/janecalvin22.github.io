@@ -54,6 +54,44 @@ html, body {width:100%; padding:0; margin:0;}
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
+#button{
+  width:450px;
+  height:450px;
+  position:relative;
+  top:48px;
+  margin:0 auto;
+  text-align:center;
+  }
+#heart img{
+  position:absolute;
+  left:0;
+  right:0;
+  margin:0 auto;
+ }
+
+ @keyframes heartFadeInOut {
+  0%
+  {    transform: scale( .5 );  }
+  20%
+  {    transform: scale( 1 );  }
+  40%
+  {    transform: scale( .5 );  }
+  60%
+  {    transform: scale( 1 );  }
+  80%
+  {    transform: scale( .5 );  }
+  100%
+  {    transform: scale( .5 );  }
+}
+
+#heart img.bottom { 
+  animation-name: heartFadeInOut; 
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+
+}
 /* ---------- /TIMER ---------- */
 
 .services-grids-wedding {
