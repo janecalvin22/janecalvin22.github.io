@@ -17,6 +17,45 @@ html, body {width:100%; padding:0; margin:0;}
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
+
+/* ---------- TIMER ---------- */
+#counter {
+    height: 125px;
+    font-size: 40px;
+    color:#212121;
+    overflow: hidden;
+}
+.countHours,.countDays,.countMinutes {
+    border-right: 1px solid #E3E3E3;
+}
+.countDays, .countHours, .countMinutes, .countSeconds {
+    display:inline-block;
+    padding: 0.5em 0;
+}
+.points {
+    float: left;
+    width:40px;
+    margin: 0;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 138px;
+    text-shadow: none;
+    color:#999;
+    display: none;
+}
+.boxName {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+    clear: both;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ---------- /TIMER ---------- */
+
 html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
