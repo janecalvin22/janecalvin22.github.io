@@ -221,6 +221,7 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 .carousel-inner img {width: 100%;max-height: 600px;}
 .carousel-inner h2.header-text{color: #590f9a;font-family: "Lobster";font-size: 60px;line-height: 62px;text-align: center;}
 .carousel-inner h2.header-text span{color: #FE6D6D;}
+.carousel-inner h3.header-text span{color: #2843BA;}
 
 .carousel-control {width: 0;}
 .carousel-control.left,
