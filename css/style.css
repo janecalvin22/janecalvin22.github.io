@@ -154,8 +154,8 @@ a:focus {text-decoration: none;}
 .center{text-align: center; margin: 0 auto;}
 .f-right{float: right;}
 .f-left{float: left;}
-.t-right{text-align: right;}
-.t-left{text-align: left;}
+.t-right{text-align: center;}
+.t-left{text-align: center;}
 
 .post{}
 .post:after, .post:before, article:after, article:before, section:after, section:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
