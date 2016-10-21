@@ -420,6 +420,19 @@ h3.bestMan span{color: #2843BA;}
 }
 
 /* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 0---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-0 {}
+.box-content.box-0 .box-item{}
+.box-content.box-0 .box-item {background: #ffffff; color: #3F3F3F; margin-bottom: 30px; }
+.box-content.box-0 .box-item .wrapper{padding: 20px 30px; }
+.box-content.box-0 .box-item img{border: none;margin-top: 30px;border: 7px double #eee; }
+.box-content.box-0 .box-item div{padding: 0;}
+.box-content.box-0 .fix-right {float: right;text-align: right;}
+
+@media only screen and (max-width: 970px) {.box-content.box-0 .fix-right,.box-content.box-0 .box-item  {float: none; text-align:center;}}
+
+/* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 3---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .box-content.box-3 {}
