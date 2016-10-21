@@ -210,7 +210,11 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 	.navbar-default .navbar-brand {display: block;}
 }
 
-
+.intro {
+  color: #7a7a7a;
+  font-family: "VerelaRound";
+  font-size: 22px;
+}
 
 /* Carousel Styles */
 .carousel-inner{margin-top: 220px;}
