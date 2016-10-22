@@ -198,7 +198,7 @@ body.sub-page header {margin: 195px 0 80px;background: url(../images/bg.jpg) fix
 .navbar-default ul.nav-justified {padding: 0 50px;border-top: 1px solid #ddd;}
 .navbar-default .nav-justified li {padding: 12px 0;}
 .navbar-default .nav-justified li:last-child {border-right: none;}
-.navbar-default .nav-justified li.active a {background-color: rgba(255,255,255,0.9);}
+/*.navbar-default .nav-justified li.active a {background-color: rgba(255,255,255,0.9);}*/
 
 @media(min-width:768px) {
     .navbar-default {border: 0;background-color: #fff;-webkit-transition: padding .3s;-moz-transition: padding .3s;transition: padding .3s;}
